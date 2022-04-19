@@ -1,0 +1,85 @@
+:root {
+  --hovericon-color: #e3afbc;
+  --card-color: #9a1750;
+  --navigation-border-colour: #e3e2df;
+  --hover-color: #5d001e;
+  --box-shadow-color: #ee4c7c;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#name {
+  opacity: 40%;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: var(--hovericon-color);
+}
+a,
+.nav-link {
+  color: black;
+}
+a:hover {
+  color: var(--hovericon-color);
+  text-decoration: none;
+}
+.coding-icon {
+  font-size: 32px;
+  word-spacing: 20px;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.back-page {
+  background-color: var(--navigation-border-colour);
+}
+.b-page:hover {
+  color: var(--hover-color);
+}
+.b-page {
+  color: black;
+}
+li {
+  padding-left: 10px;
+}
+.back-page {
+  background-color: var(--navigation-border-colour);
+}
+a {
+  color: black;
+}
+.FB-Project {
+  margin-top: 30px;
+}
+a:hover {
+  color: var(--hovericon-color);
+  text-decoration: none;
+}
+.screenshot {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px var(--box-shadow-color);
+}
+.text {
+  margin-top: 20px;
+}
+
+.icon-project {
+  margin: 20px;
+  padding: 20px;
+}
+.footer-social-area {
+  padding-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+#icon-text {
+  color: black;
+  padding: 15px;
+}
